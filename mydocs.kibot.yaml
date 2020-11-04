@@ -2,19 +2,12 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: true
-  run_drc: true
-  check_zone_fills: true
+  run_erc: false
+  run_drc: false
+  check_zone_fills: false
   ignore_unconnected: false
 
 outputs:
-  - name: 'print schema'
-    comment: "Print schematic (PDF)"
-    type: pdf_sch_print
-    dir: docs
-    options:
-      output: '%p-Schematic_%r.%x'
-
   - name: 'print schema'
     comment: "Print schematic (SVG)"
     type: svg_sch_print
@@ -29,3 +22,28 @@ outputs:
     dir: docs
     options:
       output: '%p-Board_%r.%x'
+
+  - name: 'ibom'
+    comment: "Interactive Bill of Materials (HTML)"
+    type: ibom
+    dir: docs/bom
+    options:
+      dark_mode: false
+      hide_pads: true
+      show_fabrication: true
+      hide_silkscreen: true
+      highlight_pin1: true
+      no_redraw_on_drag: true
+      board_rotation: 0
+      checkboxes: 'Sourced,Placed'
+      include_tracks: true
+      include_nets: true
+      sort_order: 'C,R,L,D,U,Y,X,F,SW,A,~,HS,CNN,J,P,NT,MH'
+      blacklist: 'DNF*'
+      no_blacklist_virtual: true
+      blacklist_empty_val: true
+      extra_fields: 'EF'
+      normalize_field_case: true
+      dnp_field: 'DNP'
+      name_format: ''
+      output: '%f.%x'
