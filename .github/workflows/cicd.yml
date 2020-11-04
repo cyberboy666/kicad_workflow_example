@@ -18,7 +18,7 @@ jobs:
     - uses: nerdyscout/kicad-exports@v2.1
       with:
       # Required - kibot config file
-        config: docs.kibot.yaml
+        config: mydocs.kibot.yaml
       # optional - prefix to output defined in config
         dir: docs
       # optional - schematic file
@@ -34,5 +34,6 @@ jobs:
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
+        branch: ${{ github.ref }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
