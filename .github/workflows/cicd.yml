@@ -25,7 +25,7 @@ jobs:
         schema: '*.sch'
       # optional - PCB design file
         board: '*.kicad_pcb'
-    - name: commit results
+      - name: commit results
         run: |
           git config --local user.email "test@github.com"
           git config --local user.name "GitHub Action test"
