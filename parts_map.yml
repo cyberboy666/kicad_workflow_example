@@ -1,0 +1,395 @@
+---
+resistor:
+  _24_:
+    0805:
+      tayda: A-3026
+      mouser: 603-AC0805FR-0724RL
+  _47_:
+    tht:
+      tayda: A-2190
+  _51_:
+    0805:
+      tayda: A-3034
+      mouser: 603-AC0805FR-0751RL
+  _75_:
+    tht:
+      tayda: A-2193
+  _100_:
+    tht:
+      tayda: A-2245
+  _180_:
+    tht:
+      tayda: A-2278
+  _220_:
+    tht:
+      tayda: A-2246
+    0805:
+      tayda: A-3049
+      mouser: 603-AC0805FR-07220RL
+  _510_:
+    tht:
+      tayda: A-2621
+  _560_:
+    0805:
+      tayda: A-3059
+      mouser: 603-RC0805FR-10560RL
+  _470_:
+    tht:
+      tayda: A-2247
+  _680_:
+    tht:
+      tayda: A-2281
+  _1k_:
+    tht:
+      tayda: A-2200
+  _1.2k_:
+    tht:
+      tayda: A-2201
+  _1.5k_:
+    tht:
+      tayda: A-2202
+  _2.2k_:
+    tht:
+      tayda: A-2341
+  _2.7k_:
+    tht:
+      tayda: A-2626
+  _3.3k_:
+    tht:
+      tayda: A-2607
+  _3.9k_:
+    tht:
+      tayda: A-2312
+  _4.7k_:
+    tht:
+      tayda: A-2310
+    0805:
+      tayda: A-3081
+      mouser: 603-RC0805FR-074K7L
+  _5.1k_:
+    tht:
+      tayda: A-2188
+  _5.6k_:
+    tht:
+      tayda: A-2351
+  _8.2k_:
+    tht:
+      tayda: A-2337
+  _10k_:
+    tht:
+      tayda: A-2203
+  _12k_:
+    tht:
+      tayda: A-2203
+  _15k_:
+    tht:
+      tayda: A-2182
+  _22k_:
+    tht:
+      tayda: A-2284
+  _39k_:
+    tht:
+      tayda: A-2313
+  _47k_:
+    tht:
+      tayda: A-2279
+  _68k_:
+    tht:
+      tayda: A-2334
+  _82k_:
+    tht:
+      tayda: A-2338
+  _100k_:
+    tht:
+      tayda: A-2248
+  _150k_:
+    tht:
+      tayda: A-2210
+  _470k_:
+    tht:
+      tayda: A-2180
+  _1m_:
+    tht:
+      tayda: A-2277
+  _680k_:
+    tht:
+      tayda: A-2192
+capacitor:
+  10p:
+    tht:
+      tayda: A-1341
+  47p:
+    0805:
+      tayda: A-3517
+      mouser: 80-C0805C470J5G
+  33p:
+    tht:
+      tayda: A-525
+  1000pf:
+    tht:
+      tayda: A-543
+  0.001u:
+    tht:
+      tayda: A-965
+  0.01u:
+    tht:
+      tayda: A-962
+    0805:
+      tayda: A-3507
+      mouser: 80-C0805C103J5R
+  0.047u:
+    tht:
+      tayda: A-552
+  0.1u:
+    tht:
+      tayda: A-214
+    0805:
+      tayda: A-3511
+      mouser: 80-C0805C104J5RACLR
+  0.33u:
+    tht:
+      tayda: A-4022
+  0.47u:
+    tht:
+      tayda: A-142
+  0.68u:
+    tht:
+      tayda: A-1482
+  1u:
+    tht:
+      tayda: A-321
+    0805:
+      mouser: 80-C0805C105Z4VACLR
+  2.2u:
+    tht:
+      tayda: A-4510
+  10u:
+    tht:
+      tayda: A-3931
+  100u:
+    tht:
+      tayda: A-1063
+  220u:
+    tht:
+      tayda: A-4543
+  330u:
+    tht:
+      tayda: A-4553
+  40pF_var:
+    tht:
+      tayda: A-2497
+diode:
+  1n914:
+    tht:
+      tayda: A-615
+  1n4007:
+    tht:
+      tayda: A-155
+  led:
+    tht:
+      tayda: A-3005 
+  1n4148:
+    tht:
+      tayda: A-157
+  BAT46:
+    tht:
+      tayda: A-1095
+  zener_1.8v:
+    tht:
+      mouser: 610-1N4614TRPB
+ic:
+  2N3904:
+    tht:
+      tayda: A-111
+  LM393:
+    dip:
+      tayda: A-023
+      mouser: 595-LM393APE4
+  LM339:
+    dip:
+      tayda: A-022
+      mouser: 595-LM339ANE4
+  LM317:
+    tht:
+      tayda: A-500
+  AP131-15:
+    sot:
+      mouser: AP131-15WG-7
+  78L33:
+    tht:
+      tayda: A-492
+      mouser: 511-L78L33ACZ
+  L7805:
+    tht:
+      tayda: A-179  
+  L7905:
+    tht:
+      tayda: A-258  
+  CD4051:
+    dip:
+      tayda: A-495
+      mouser: 595-CD4051BE
+  CD4053:
+    dip:
+      tayda: A-1151
+      mouser: 595-CD4053BE
+  MAX232:
+    dip:
+      tayda: A-034
+      mouser: 700-MAX232CPE
+  6N137:
+    dip:
+      tayda: A-871
+      mouser: 859-6N137
+  6N138:
+    dip:
+      mouser: 859-6N138
+  AD8072:
+    dip:
+      mouser: 584-AD8072JNZ
+  AD8044:
+    dip:
+      mouser: 584-AD8044ANZ
+    soic:
+      mouser: 584-AD8044ARZ14-R7
+  AD724:
+    soic:
+      mouser: 584-AD724JRZ
+  ADV7280-M:
+    csp:
+      mouser: 584-ADV7280KCPZ-M
+  LM1881:
+    soic:
+      mouser: 926-LM1881MX/NOPB
+  LT1251:
+    dip:
+      mouser: 584-LT1251CN#PBF
+  74HC4538:
+    dip:
+      mouser: 595-CD74HC4538E
+  74HC04:
+    dip:
+      tayda: A-3289
+      mouser: 595-SN74HC04AN
+  74HC86:
+    dip:
+      mouser: 595-SN74HC86NE4
+  74HC14:
+    dip:
+      mouser: 595-SN74HC14NE4
+  74LS221:
+    dip:
+      mouser: 595-SN74LS221N
+  CD4069:
+    dip:
+      tayda: A-882
+      mouser: 595-CD4069UBE
+  CD4013:
+    dip:
+      tayda: A-556
+      mouser: 595-CD4013BE
+  CD4015:
+    dip:
+      tayda: A-495
+      mouser: 595-CD4015BEE4
+  CD4040:
+    dip:
+      tayda: A-011
+      mouser: 595-CD4040BEE4
+  CD40106:
+    dip:
+      tayda: A-015
+      mouser: 595-CD40106BE
+  MCP3008:
+    dip:
+      tayda: A-2470
+      mouser: 579-MCP3008-I/P
+  dip14socket:
+    tht:
+      tayda: A-004
+  3.57Mhz_crystal:
+    tht:
+      tayda: A-238
+      mouser: 815-ABL-3.579545B2
+  4.43Mhz_crystal:
+    tht:
+      mouser: 520-HCU443-20X
+  28.63MHz:
+    5.0x3.2mm:
+      mouser: 815-ABM3-28.6363-B2T
+interface:
+  Barrel_Jack:
+    horizontal:
+      tayda: A-4118
+  PinHeader:
+    tht:
+      tayda: A-197
+  1k_pot:
+    vertical:
+      mouser: 652-PTV09A-4025FB102
+  10k_pot:
+    vertical:
+      mouser: 652-PTV09A-4025FB103
+  1k_trim:
+    tht:
+      tayda: A-603
+  5k_trim:
+    tht:
+      tayda: A-610
+  10k_trim:
+    tht:
+      tayda: A-604
+  20k_trim:
+    tht:
+      tayda: A-608
+  100k_trim:
+    tht:
+      tayda: A-605
+  10k_slide_center:
+    tht:
+      tayda: A-4291
+  PUSH:
+    6mm:
+      tayda: A-5129
+  DPDT:
+    mini_toggle:
+      tayda: A-4568
+  SPDT:
+    slide_switch_small:
+      tayda: A-659
+    mini_toggle:
+      tayda: A-4567
+  rca:
+    tht:
+      mouser: 490-RCJ-024
+  mini-din4:
+    vertical:
+      mouser: 490-MD-40SV
+  mono_jack_3.5mm:
+    QingPu:
+      tayda: A-2563
+  stereo_jack_3.5mm:
+    horizontal:
+      tayda: A-853
+  dsub9_socket:
+    tht:
+      tayda: A-300
+  dsub9_plug:
+    tht:
+      tayda: A-301
+  din5:
+    horizontal:
+      tayda: A-1010
+    vertical:
+      mouser: 490-SD-50BV
+  TE_1-84953:
+    horizontal:
+      mouser: 571-1-84953-5
+    vertical:
+      mouser: 490-SD-50BV
+  europower:
+    2x08:
+      tayda: A-2956
+  2x20_Extra_Tall_Header:
+    vertical:
+      mouser: 485-1979
