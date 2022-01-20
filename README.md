@@ -10,4 +10,4 @@ on every git _release_:
 - run checkers...
 - export schematic pdf
 - export gerber files (lastest.zip format ?)
-- 
+- export the bom's (full, tayda, mouser ibom)
